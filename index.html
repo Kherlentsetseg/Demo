@@ -1442,7 +1442,7 @@
         <span class="progress-label-text">Зан төлөвийн асуулт — Big Five &nbsp;·&nbsp; 1/4</span>
       </div>
       <div class="progress-track"><div class="progress-fill" style="width:25%"></div></div>
-      <div class="alert alert-warning">1 = Огт тохирохгүй &nbsp;&nbsp; 3 = Дунд &nbsp;&nbsp; 5 = Бүрэн тохирно</div>
+      <div class="alert alert-warning">1 = Огт санал нийлэхгүй &nbsp;&nbsp; 3 = Дун зэрэг &nbsp;&nbsp; 5 = Бүрэн санал нийлнэ</div>
       <div id="zan-questions"></div>
       <button class="btn-primary" style="margin:1.75rem auto 0;" onclick="switchTab('ersdel')">
         Дараагийн хэсэг
@@ -1837,7 +1837,7 @@ function renderZanQuestions() {
         <div class="big5-options">
           ${[1,2,3,4,5].map(v=>`<label class="big5-opt"><input type="radio" name="${q.id}" value="${v}"><div class="big5-btn">${v}</div></label>`).join('')}
         </div>
-        <span class="big5-end-label right">Бүрэн тохирно</span>
+        <span class="big5-end-label right">Бүрэн санал нийлнэ</span>
       </div>
     </div>`).join('');
 }
