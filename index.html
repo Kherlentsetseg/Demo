@@ -1843,7 +1843,7 @@ function renderZanQuestions() {
 }
 
 function renderLikertQuestions(cid, questions) {
-  const labels = ['Огт зөвшөөрөхгүй','Зөвшөөрөхгүй','Тодорхойгүй','Зөвшөөрнө','Бүрэн зөвшөөрнө'];
+  const labels = ['Огт санал нийлэхгүй','Санал нийлэхгүй','Дунд зэрэг','Санал нийлнэ','Бүрэн санал нийлнэ'];
   const c = document.getElementById(cid);
   c.innerHTML = questions.map((q,i)=>`
     <div class="q-card">
